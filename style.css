@@ -1,0 +1,144 @@
+*{
+	font-family: Montserrat;
+}
+body{
+	background-color: black;
+} 
+
+form{
+	background-color: black;
+	text-align: center;
+	font-family: monospace;
+	border: white;
+	padding: 50px;
+}
+
+/* COPYRIGHTS */
+footer{
+	background-color: black;
+	color: white;
+	padding: 20px;
+}
+
+
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto ;  /* used to make 2 columns */
+  gap: 450px; /* gap between rows and columns*/
+
+ 
+}
+.grid-container > footer {
+  background-color:black;
+
+  padding: 20px 0;
+  font-size: 15px;
+
+}
+
+
+/* services offered*/
+
+.grid2{
+	display: grid;
+	grid-template-columns: auto auto auto;
+	grid-template-rows: auto;
+	gap: 20px;
+	background-color: black;
+    padding: 50px;
+
+}
+
+.grid2 >div{
+	background-color: black;
+	text-align: center;
+	
+	
+}
+
+/* FOOTER */
+.footer-grid{
+	display: grid;
+	grid-template-columns: auto auto auto;
+	background-color: black;
+	column-gap: 200px;
+	padding: 50px 50px;
+
+}
+
+button{
+	border: none;
+	background-color: black;
+}
+
+ul{
+	list-style-type: none;
+}
+
+/* IMAGE GALLERY*/
+.container > img {
+       outline-style: outset;
+       outline-color: lightgrey;                  
+}            
+ .container {
+   position: relative;
+   width: 50%;
+}
+ 
+ .image {
+   display: block;
+   width: 300px;
+   height: 300px;
+   opacity: 2;
+   background-color: black;
+}
+ 
+ .overlay {
+   position: absolute;
+   bottom: 0;
+   left: 400px;
+   right: 400px;
+   overflow: hidden;
+   width: 400px;
+   height:90px; /* text alignment on image*/
+   transition: .7s ease;
+}
+ 
+ .container:hover .overlay {
+   width: 400px;
+
+   left: 0;  
+}
+ 
+ 
+
+/* SITEMAP */
+.sitemap li:hover{
+	color:red;
+	 transition: 1.0s ease;
+}
+
+.image-grid{
+	display: grid;
+	grid-template-columns: 210px 210px 210px 210px ;
+	padding: 50px;
+	gap: 30px;
+	justify-content: center;  /* align grid to center */
+}
+
+.image-grid > div > img{
+	border-radius: 10%;
+}
+
+.join-today{
+	border: 2px solid black; 
+	transition: .3s ease; 
+	font-style: bold;
+
+}
+
+.join-today:hover >a{
+	color: white;
+}
+
+
